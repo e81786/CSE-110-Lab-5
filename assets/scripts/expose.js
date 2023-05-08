@@ -8,7 +8,7 @@ function init() {
   const hornAudio = document.getElementsByTagName("audio")[0];
   const volume = document.getElementById("volume");
   const volumeImage = document.getElementsByTagName("img")[1];
-  const playBtn = document.getElementsByTagName("button")[0];
+  const playBtn = document.querySelector("button");
   const jsConfetti = new JSConfetti();
   hornAudio.volume = 0.5;
 

@@ -6,7 +6,7 @@ function init() {
   const speak = document.getElementById("text-to-speak");
   const options = document.getElementById("voice-select");
   const smile = document.getElementsByTagName("img")[0];
-  const btn = document.getElementsByTagName("button")[0];
+  const btn = document.querySelector("button");
   var synth = window.speechSynthesis;
   var msg = new SpeechSynthesisUtterance();
 
