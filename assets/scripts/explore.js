@@ -44,9 +44,9 @@ function init() {
             clearInterval(speaketh);
           }
           if (i % 2 == 0) {
-            smile.src = "/assets/images/smiling-open.png";
+            smile.src = "assets/images/smiling-open.png";
           } else {
-            smile.src = "/assets/images/smiling.png";
+            smile.src = "assets/images/smiling.png";
           }
           if (!synth.speaking) {
             clearInterval(speaketh);
