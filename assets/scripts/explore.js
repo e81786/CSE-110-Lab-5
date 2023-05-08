@@ -41,6 +41,7 @@ function init() {
       if (synth.speaking) {
         var speaketh = setInterval(function () {
           if (!synth.speaking) {
+            smile.src = "assets/images/smiling.png";
             clearInterval(speaketh);
           }
           if (i % 2 == 0) {
@@ -49,6 +50,7 @@ function init() {
             smile.src = "assets/images/smiling.png";
           }
           if (!synth.speaking) {
+            smile.src = "assets/images/smiling.png";
             clearInterval(speaketh);
           }
           i++;
