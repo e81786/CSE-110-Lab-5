@@ -59,7 +59,6 @@ function init() {
         hornAudio.currentTime = 0;
         hornAudio.play();
       }
-      console.log(hornAudio.volume);
     }
     let hornValue = hornSelector.value;
     if (hornValue == "party-horn") {
